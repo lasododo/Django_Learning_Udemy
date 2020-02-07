@@ -5,6 +5,6 @@ from .views import (
         )
 
 urlpatterns = [
-    url(r'^$', SearchProductListView.as_view(), name='list'),
+    url(r'^$', SearchProductListView.as_view(), name='query'),
 ]
 
